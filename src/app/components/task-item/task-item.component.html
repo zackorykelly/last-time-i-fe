@@ -1,0 +1,18 @@
+<div class="bg-dark rounded p-4 text-light">
+    <h3 class="mb-3 text-decoration-underline">{{ task.title }}</h3>
+    <div class="row">
+      <div class="col-lg-6">
+        <p class="mb-3">{{ task.description }}</p>
+      </div>
+      <div class="col-lg-6">
+        <p class="mb-3 text-lg-end">Frequency: Every {{ task.frequencyDays }} days</p>
+        <p class="mb-3 text-lg-end">Completions:</p>
+        <ul class="list-unstyled">
+          <li *ngFor="let date of task.completions" class="mb-2 text-lg-end">
+            {{ date }}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  

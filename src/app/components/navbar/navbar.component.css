@@ -1,0 +1,16 @@
+.navbar-nav {
+    flex-grow: 1;
+    justify-content: center;
+  }
+  
+  .navbar-nav .nav-link {
+    margin: 0 10px;
+  }
+  
+  .navbar-brand {
+    margin-right: auto;
+  }
+  
+  .d-flex {
+    align-items: center;
+  }
